@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.Mainc{
+
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    height: 60vh;
+
+}
+
+.heading{
+    background-color: aqua;
+    height: 10%;
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+}
+
+.Body{
+    background-color: rgb(22, 230, 202);
+    height:85%;
+    overflow-y: scroll;
+    position: relative;
+    
+}
+
+
+
+.todo{
+
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 100px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+    overflow-x: auto;    
+
+
+}
+
+.todo:hover{
+
+    background-color: black;
+    color: white;
+
+}
+
+
+.Entry{
+
+     background-color: rgb(22, 230, 202);
+        height: 10vh;
+
+}
+
+
+.Myinp{
+    text-align: center;
+    padding: 2px;
+    margin-top: 20px;
+    width: 20%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40%;
+    
+}
+
+.btnn{
+
+
+    width: 8%;
+    padding: 2px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 50%;
+}

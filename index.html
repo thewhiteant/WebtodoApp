@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB TODO</title>
+    
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+    <?php
+        include 'main.php';
+    ?>
+
+</head>
+<body>
+
+    <div class="Mainc">    
+        <div class="heading">
+            Whiteant TODO
+        </div>
+        <div class="Body">           
+            <?php
+                loadAlltask();
+            ?>
+        </div>
+        <form class="Entry" id="mainform">
+            <input type="text" class="Myinp" placeholder="TASK" name="tsk" value="" ><button class="btnn">submit</button>
+        </form>     
+    </div>
+
+</body>
+</html>
+
+
